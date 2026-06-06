@@ -199,31 +199,353 @@ a
 
 # Estrutura do Projeto
 
-```text
-app/
-├── tabs/
-│   ├── index.js
-│   ├── search.js
-│   ├── history.js
-│   └── _layout.js
+```txt
+ODYSSEYMIRROR/
+├── app/
+│   ├── tabs/
+│   │   ├── _layout.js
+│   │   ├── home.js
+│   │   ├── search.js
+│   │   └── history.js
+│   ├── _layout.js
+│   └── monitoring.js
 │
-├── monitoring.js
-└── _layout.js
-
-service/
-├── weatherService.js
-├── ebirdService.js
-└── llamaService.js
-
-context/
-└── MonitoringContext.js
-
-constant/
-└── theme.js
-
-assets/
-└── preview/
+├── assets/
+│
+├── components/
+│   ├── ChartsContent.js
+│   ├── HistoryCard.js
+│   ├── HomeSlide.js
+│   ├── MiniMetric.js
+│   ├── StatusCount.js
+│   └── WeatherItem.js
+│
+├── constant/
+│   └── theme.js
+│
+├── context/
+│   └── MonitoringContext.js
+│
+├── data/
+│   └── data.js
+│
+├── helpers/
+│   ├── history.js
+│   ├── monitoring.js
+│   └── search.js
+│
+├── hooks/
+│   ├── history.js
+│   ├── home.js
+│   ├── monitoring.js
+│   └── search.js
+│
+├── service/
+│   ├── ebirdService.js
+│   ├── llamaService.js
+│   └── weatherService.js
+│
+├── styles/
+│   ├── history.js
+│   ├── home.js
+│   ├── monitoring.js
+│   └── search.js
+│
+├── .env
+├── .env.example
+├── .gitignore
+├── app.json
+└── package.json
 ```
+
+---
+
+# Organização dos Arquivos
+
+## app/
+
+Responsável pelas rotas da aplicação utilizando Expo Router.
+
+### app/_layout.js
+
+Layout principal da aplicação.
+
+Responsável por:
+
+* Carregar as fontes globais.
+* Configurar a navegação principal.
+* Registrar o `MonitoringProvider`.
+* Definir as rotas globais da aplicação.
+
+### app/monitoring.js
+
+Tela de monitoramento ambiental.
+
+Exibe:
+
+* Dados climáticos.
+* Dados de biodiversidade.
+* Status ambiental.
+* Parecer inteligente gerado pela IA.
+* Gráficos de evolução.
+* Histórico de presença da espécie bioindicadora.
+
+### app/tabs/_layout.js
+
+Layout das abas inferiores da aplicação.
+
+Controla a navegação entre:
+
+* Explorar.
+* Monitorar.
+* Evolução.
+
+### app/tabs/home.js
+
+Tela inicial da aplicação.
+
+Apresenta:
+
+* Espécies bioindicadoras.
+* Tecnologias ambientais.
+* Satélites de observação da Terra.
+* Inteligência artificial.
+* Sensores ambientais.
+* Carrossel interativo.
+
+### app/tabs/search.js
+
+Tela responsável pela pesquisa e criação de monitoramentos.
+
+Permite:
+
+* Selecionar uma região no mapa.
+* Consultar clima atual.
+* Buscar espécies bioindicadoras próximas.
+* Selecionar uma espécie.
+* Iniciar um monitoramento.
+
+### app/tabs/history.js
+
+Tela de histórico.
+
+Exibe:
+
+* Monitoramentos salvos.
+* Estatísticas resumidas.
+* Quantidade de análises por status.
+* Acesso rápido aos detalhes de cada monitoramento.
+
+---
+
+# components/
+
+Componentes reutilizáveis da interface.
+
+### ChartsContent.js
+
+Responsável pela renderização dos gráficos utilizados na tela de monitoramento.
+
+### HistoryCard.js
+
+Card utilizado para exibir um monitoramento salvo no histórico.
+
+### HomeSlide.js
+
+Componente individual utilizado pelo carrossel da Home.
+
+### MiniMetric.js
+
+Exibe métricas resumidas em formato compacto.
+
+### StatusCount.js
+
+Exibe contadores por status ambiental.
+
+Exemplos:
+
+* Estável.
+* Atenção.
+* Crítico.
+
+### WeatherItem.js
+
+Componente responsável por exibir um dado climático individual.
+
+Exemplos:
+
+* Temperatura.
+* Umidade.
+* Pressão.
+* Vento.
+
+---
+
+# constant/
+
+Arquivos de configuração global.
+
+### theme.js
+
+Centraliza:
+
+* Cores.
+* Fontes.
+* Tamanhos.
+* Tokens visuais da aplicação.
+
+---
+
+# context/
+
+Gerenciamento de estado global.
+
+### MonitoringContext.js
+
+Responsável por:
+
+* Salvar monitoramentos.
+* Recuperar monitoramentos.
+* Atualizar monitoramentos.
+* Compartilhar dados entre telas.
+
+---
+
+# data/
+
+Armazena dados estáticos utilizados pela aplicação.
+
+### data.js
+
+Contém:
+
+* Slides da Home.
+* Conteúdo educacional.
+* Bioindicadores.
+* Tecnologias ambientais.
+* URLs de imagens.
+
+---
+
+# helpers/
+
+Funções auxiliares específicas de cada módulo.
+
+### history.js
+
+Funções auxiliares da tela de histórico.
+
+Exemplos:
+
+* Formatação de dados.
+* Conversão de parâmetros.
+* Montagem de navegação.
+
+### monitoring.js
+
+Funções de apoio para análises ambientais.
+
+Exemplos:
+
+* Cálculo de status.
+* Classificação de risco.
+* Interpretação de métricas.
+
+### search.js
+
+Funções auxiliares da tela de pesquisa.
+
+Exemplos:
+
+* Formatação de coordenadas.
+* Conversão de dados geográficos.
+
+---
+
+# hooks/
+
+Responsáveis pela lógica e comportamento das telas.
+
+### home.js
+
+Controla:
+
+* Modo Natureza.
+* Modo Tecnologia.
+* Carrossel.
+* Slide ativo.
+
+### search.js
+
+Controla:
+
+* Seleção do mapa.
+* Busca climática.
+* Busca de bioindicadores.
+* Seleção de espécie.
+* Navegação para monitoramento.
+
+### monitoring.js
+
+Controla:
+
+* Estado da tela de monitoramento.
+* Integração com IA.
+* Dados dos gráficos.
+* Persistência de análises.
+
+### history.js
+
+Controla:
+
+* Listagem de monitoramentos.
+* Estatísticas.
+* Abertura de detalhes.
+
+---
+
+# service/
+
+Camada responsável por integrações externas.
+
+### weatherService.js
+
+Integração com a API OpenWeather.
+
+Responsável por obter:
+
+* Temperatura.
+* Umidade.
+* Pressão atmosférica.
+* Velocidade do vento.
+* Condições climáticas.
+
+### ebirdService.js
+
+Integração com a API eBird.
+
+Responsável por obter:
+
+* Espécies observadas.
+* Quantidade de indivíduos.
+* Frequência de ocorrência.
+* Dados de biodiversidade.
+
+### llamaService.js
+
+Integração com o modelo Llama.
+
+Responsável por gerar:
+
+* Parecer ambiental.
+* Resumo inteligente.
+* Interpretação dos dados coletados.
+
+---
+
+# styles/
+
+Arquivos responsáveis pela estilização das telas.
 
 ---
 
@@ -238,7 +560,7 @@ assets/
 * [x] Parecer ambiental com IA
 * [x] Dashboard com gráficos
 * [ ] Integração com sensores ambientais
-* [ ] Integração com dados satelitais
+* [ ] Integração com dados de satélites
 * [ ] Sistema de alertas automáticos
 * [ ] Modelos preditivos ambientais
 
