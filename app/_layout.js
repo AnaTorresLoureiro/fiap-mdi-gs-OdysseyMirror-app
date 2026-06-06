@@ -1,6 +1,5 @@
 import { Stack } from 'expo-router';
 import { useFonts } from 'expo-font';
-import { COLORS, FONT } from '../constant/theme';
 import { MonitoringProvider } from '../context/MonitoringContext';
 
 import {
@@ -21,7 +20,6 @@ export default function RootLayout() {
     LeagueSpartan_400Regular,
     LeagueSpartan_600SemiBold,
     LeagueSpartan_700Bold,
-
     Inter_400Regular,
     Inter_500Medium,
     Inter_600SemiBold,
@@ -34,11 +32,8 @@ export default function RootLayout() {
     <MonitoringProvider>
       <Stack
         initialRouteName="tabs"
-        screenOptions={{
-          headerShown: false,
-        }}
+        screenOptions={{ headerShown: false }}
       >
-        <Stack.Screen name="index" />
         <Stack.Screen name="tabs" />
         <Stack.Screen name="monitoring" />
       </Stack>
