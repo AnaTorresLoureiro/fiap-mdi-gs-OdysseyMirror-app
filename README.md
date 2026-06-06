@@ -9,6 +9,12 @@
 
 ---
 
+# Conheça a solução
+
+<img src="https://raw.githubusercontent.com/AnaTorresLoureiro/legendary-doodle/refs/heads/main/Design%20sem%20nome%20(2).png"  width="500"/>
+
+---
+
 # Preview
 
 <p align="center">
