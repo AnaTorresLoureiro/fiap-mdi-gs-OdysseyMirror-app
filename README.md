@@ -67,20 +67,6 @@ A proposta é unir tecnologias espaciais e ambientais em uma única plataforma c
 
 ---
 
-# Funcionalidades
-
-* Exploração de conceitos relacionados à biodiversidade e tecnologias ambientais
-* Seleção de localização diretamente pelo mapa
-* Monitoramento de espécies bioindicadoras
-* Consulta de dados climáticos em tempo real
-* Comparação entre quantidade observada e quantidade esperada
-* Classificação ambiental em níveis de risco
-* Parecer ambiental gerado por Inteligência Artificial
-* Histórico de monitoramentos salvos
-* Visualização gráfica dos indicadores coletados
-
----
-
 # Fluxo
 
 ```text
