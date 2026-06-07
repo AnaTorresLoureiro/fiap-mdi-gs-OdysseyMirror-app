@@ -117,28 +117,6 @@ Além de servir como um histórico de consultas, essa área funciona como uma ba
 
 Como evolução futura, o Odyssey Mirror contará com um sistema de **logs automáticos de monitoramento**, registrando novas análises periodicamente sem necessidade de intervenção do usuário. A plataforma também poderá atualizar os dados de forma contínua, gerando históricos cada vez mais completos e permitindo o acompanhamento em tempo real das regiões monitoradas.
 
-<p align="center">
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/1.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/2.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/7.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/3.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/4.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/6.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/14.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/16.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/17.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/18.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/19.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/20.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/21.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/5.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/8.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/9.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/10.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/11.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/15.jpeg" width="150"/>
-</p>
-
 ---
 
 # Fluxo
