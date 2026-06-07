@@ -1,11 +1,37 @@
 <img src="https://raw.githubusercontent.com/AnaTorresLoureiro/legendary-doodle/refs/heads/main/Design%20sem%20nome%20(1).png"/>
 
-# Odyssey Mirror
-
 <p align="start">
-  <b>Monitoramento ambiental inteligente inspirado em tecnologias espaciais.</b><br/>
-  O Odyssey Mirror integra dados climáticos, bioindicadores e inteligência artificial para apoiar a análise ambiental de regiões monitoradas.
+  <b>Unindo tecnologia espacial e a sabedoria da natureza</b><br/>
+  O Odyssey monitora condições ambientais e o comportamento de espécies bioindicadoras para identificar sinais precoces de mudanças e riscos ambientais.
 </p>
+
+# Sobre o Projeto
+
+O **Odyssey Mirror** é uma aplicação mobile desenvolvida em React Native com Expo que reúne todas as funcionalidades desenvolvidas para o ecossistema **Odyssey**, centralizando em uma única plataforma a visualização, análise e acompanhamento de informações ambientais.
+
+A solução combina dados climáticos, biodiversidade e inteligência artificial para auxiliar no monitoramento ambiental. Inspirado em tecnologias utilizadas na observação da Terra, como satélites, sensores e sistemas de monitoramento remoto, o projeto demonstra como diferentes fontes de informação podem ser integradas para gerar análises mais completas e acessíveis.
+
+Um dos principais diferenciais do Odyssey é a utilização de **espécies bioindicadoras**, animais capazes de refletir alterações em seu ambiente por meio de mudanças em seu comportamento, presença ou ausência em determinadas regiões. No protótipo atual, o sistema utiliza observações do **Canário-da-terra (*Sicalis flaveola*)**, mas sua arquitetura permite a expansão para diversas outras espécies monitoradas por plataformas de biodiversidade.
+
+Atualmente, o sistema integra dados meteorológicos e registros de biodiversidade para avaliar uma região monitorada, cruzando informações ambientais com observações da fauna local. Dessa forma, o Odyssey busca unir tecnologia e natureza, reconhecendo que os animais também podem atuar como importantes indicadores ambientais.
+
+Como evolução futura, o projeto prevê a integração com sensores ambientais, dados satelitais e modelos avançados de inteligência artificial capazes de identificar padrões, tendências e possíveis riscos ambientais em tempo real, tornando o monitoramento cada vez mais preciso e proativo.
+
+
+# Conexão com o Tema Espacial
+
+O Odyssey Mirror se conecta diretamente ao tema espacial por utilizar conceitos inspirados em sistemas de observação terrestre empregados por agências espaciais e centros de pesquisa.
+
+A plataforma foi concebida com base em uma arquitetura que poderá futuramente integrar:
+
+* Satélites de observação da Terra
+* Sensores ambientais distribuídos em campo
+* Monitoramento de grupos de animais bioindicadores
+* Coleta automatizada de variáveis climáticas
+* Inteligência Artificial para correlação e análise dos dados
+
+A proposta é unir tecnologias espaciais e ambientais em uma única plataforma capaz de auxiliar na compreensão do comportamento dos ecossistemas.
+
 
 ---
 
@@ -28,43 +54,16 @@
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/16.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/17.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/18.jpeg" width="150"/>
-    <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/19.jpeg" width="150"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/19.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/20.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/21.jpeg" width="150"/>
-   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/5.jpeg" width="150"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/5.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/8.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/9.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/10.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/11.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/15.jpeg" width="150"/>
 </p>
-
-
----
-
-# Sobre o Projeto
-
-O **Odyssey Mirror** é uma aplicação mobile desenvolvida em React Native com Expo, criada para monitorar condições ambientais através da combinação de dados climáticos, biodiversidade e inteligência artificial.
-
-A solução foi inspirada em tecnologias utilizadas na observação da Terra, como satélites, sensores e sistemas de monitoramento remoto. O objetivo é demonstrar como diferentes fontes de informação podem ser integradas para gerar análises ambientais mais completas e acessíveis.
-
-Atualmente, o sistema utiliza dados meteorológicos e registros de biodiversidade para avaliar uma região monitorada. Como evolução futura, o projeto prevê a integração com sensores ambientais, dados satelitais e modelos avançados de inteligência artificial capazes de identificar padrões, tendências e possíveis riscos ambientais.
-
----
-
-# Conexão com o Tema Espacial
-
-O Odyssey Mirror se conecta diretamente ao tema espacial por utilizar conceitos inspirados em sistemas de observação terrestre empregados por agências espaciais e centros de pesquisa.
-
-A plataforma foi concebida com base em uma arquitetura que poderá futuramente integrar:
-
-* Satélites de observação da Terra
-* Sensores ambientais distribuídos em campo
-* Monitoramento de grupos de animais bioindicadores
-* Coleta automatizada de variáveis climáticas
-* Inteligência Artificial para correlação e análise dos dados
-
-A proposta é unir tecnologias espaciais e ambientais em uma única plataforma capaz de auxiliar na compreensão do comportamento dos ecossistemas.
 
 ---
 
@@ -82,7 +81,7 @@ A proposta é unir tecnologias espaciais e ambientais em uma única plataforma c
 
 ---
 
-# Como Funciona
+# Fluxo
 
 ```text
 Usuário seleciona uma região
@@ -105,21 +104,39 @@ Salvamento e acompanhamento do monitoramento
 # Arquitetura
 
 ```text
-React Native + Expo
-        │
-        ▼
-   Odyssey Mirror
-        │
- ┌──────┴──────┐
- ▼             ▼
-OpenWeather   eBird
-Clima         Biodiversidade
-        │
-        ▼
-Inteligência Artificial
-        │
-        ▼
- Parecer Ambiental
+┌──────────────────────────────────────────────┐
+│              React Native + Expo             │
+│        Interface mobile do Odyssey Mirror    │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│              Odyssey Mirror                  │
+│   Seleção de região, espécie e monitoramento │
+└──────────────┬───────────────┬───────────────┘
+               │               │
+               ▼               ▼
+┌───────────────────┐   ┌───────────────────┐
+│    OpenWeather    │   │       eBird       │
+│ Dados climáticos  │   │ Dados de fauna    │
+└─────────┬─────────┘   └─────────┬─────────┘
+          │                       │
+          └───────────┬───────────┘
+                      ▼
+┌──────────────────────────────────────────────┐
+│          Processamento e Correlação          │
+│ Clima + biodiversidade + região monitorada   │
+└──────────────────────┬───────────────────────┘
+                       ▼
+┌──────────────────────────────────────────────┐
+│        Inteligência Artificial / Regras      │
+│     Interpretação dos dados ambientais       │
+└──────────────────────┬───────────────────────┘
+                       ▼
+┌──────────────────────────────────────────────┐
+│              Parecer Ambiental               │
+│  Status, gráficos, alertas e histórico       │
+└──────────────────────────────────────────────┘
 ```
 
 ---
