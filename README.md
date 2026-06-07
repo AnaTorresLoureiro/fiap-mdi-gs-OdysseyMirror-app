@@ -23,17 +23,17 @@
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/7.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/3.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/4.jpeg" width="150"/>
-</p>
-
-<p align="center">
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/6.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/14.jpeg" width="150"/>
-  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/5.jpeg" width="150"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/16.jpeg" width="150"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/17.jpeg" width="150"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/18.jpeg" width="150"/>
+    <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/19.jpeg" width="150"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/20.jpeg" width="150"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/21.jpeg" width="150"/>
+   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/5.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/8.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/9.jpeg" width="150"/>
-</p>
-
-<p align="center">
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/10.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/11.jpeg" width="150"/>
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/15.jpeg" width="150"/>
