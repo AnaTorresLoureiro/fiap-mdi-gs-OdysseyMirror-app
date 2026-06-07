@@ -42,6 +42,80 @@ A proposta é unir tecnologias espaciais e ambientais em uma única plataforma c
 ---
 
 # Preview
+## 🔍 Explorar
+
+<p align="center">
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/1.jpeg?raw=true" width="150"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/2.jpeg?raw=true" width="150"/>
+</p>
+
+A tela **Explorar** foi desenvolvida para aproximar o usuário do universo ambiental e da biodiversidade monitorada pelo Odyssey. Atualmente, ela apresenta espécies de interesse, curiosidades e informações relevantes sobre os animais utilizados como bioindicadores no projeto.
+
+Como evolução futura, esta funcionalidade será totalmente dinâmica, consumindo dados de APIs externas e modelos de inteligência artificial para disponibilizar **novos conteúdos diariamente**, incluindo curiosidades, informações científicas, alertas ambientais, descobertas recentes e espécies em destaque. Dessa forma, cada acesso poderá oferecer uma experiência diferente, incentivando o aprendizado contínuo sobre meio ambiente, biodiversidade e conservação.
+
+## 📡 Monitoramento
+
+<p align="center">
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/7.jpeg?raw=true" width="150"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/3.jpeg?raw=true" width="150"/>
+</p>
+
+A tela **Monitoramento** é o núcleo da plataforma Odyssey Mirror. Nela, o usuário pode selecionar uma região e uma espécie bioindicadora para pesquisar informações climáticas, registros de biodiversidade e análises ambientais geradas a partir dos dados coletados.
+
+Como evolução futura, a plataforma contará com um **mapa interativo**, permitindo que o usuário marque e acompanhe regiões específicas de interesse. Essas áreas poderão ser monitoradas continuamente, gerando históricos, alertas e acompanhamentos personalizados com base em dados climáticos, observações de espécies bioindicadoras, sensores ambientais e, futuramente, informações provenientes de satélites de observação da Terra.
+
+## 📊 Análise Ambiental
+
+<p align="center">
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/19.jpeg?raw=true" width="100"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/20.jpeg?raw=true" width="100"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/21.jpeg?raw=true" width="100"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/8.jpeg?raw=true" width="100"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/9.jpeg?raw=true" width="100"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/10.jpeg?raw=true" width="100"/>
+</p>
+
+Após a seleção da região e da espécie bioindicadora, o Odyssey Mirror apresenta uma análise detalhada do ambiente monitorado. A plataforma reúne dados climáticos, informações sobre biodiversidade e indicadores ambientais em uma única visualização, facilitando a interpretação dos dados pelo usuário.
+
+A tela exibe métricas como temperatura, umidade, pressão atmosférica, velocidade do vento e registros recentes da espécie monitorada. Com base nessas informações, o sistema gera um **status ambiental**, auxiliando na identificação de possíveis alterações ou comportamentos fora do padrão esperado.
+
+Além dos indicadores numéricos, o usuário pode visualizar **gráficos comparativos**, tendências históricas e um **parecer inteligente**, responsável por transformar grandes volumes de dados em insights mais acessíveis e compreensíveis.
+
+Como evolução futura, o parecer inteligente poderá ser alimentado por modelos avançados de Inteligência Artificial e dados satelitais, permitindo análises preditivas, identificação automática de padrões ambientais e emissão de alertas para eventos potencialmente críticos.
+
+### 🚨 Status e Níveis de Alerta
+
+<p align="center">
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/4.jpeg?raw=true" width="100"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/6.jpeg?raw=true" width="100"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/14.jpeg?raw=true" width="100"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/16.jpeg?raw=true" width="100"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/17.jpeg?raw=true" width="100"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/18.jpeg?raw=true" width="100"/>
+</p>
+
+O Odyssey Mirror foi projetado para apresentar diferentes cenários ambientais de forma clara e intuitiva. Com base na análise dos dados climáticos e dos registros das espécies bioindicadoras, o sistema classifica a situação da região monitorada em diferentes níveis de atenção.
+
+Cada status possui uma identidade visual própria, permitindo que o usuário identifique rapidamente quando as condições ambientais estão dentro do esperado ou quando há indícios de alterações que merecem acompanhamento mais próximo.
+
+Os níveis de alerta são calculados a partir da correlação entre variáveis como temperatura, umidade, pressão atmosférica, velocidade do vento e comportamento das espécies monitoradas. Quando os dados indicam desvios significativos dos padrões observados, o sistema pode elevar o nível de atenção para estados mais críticos.
+
+Essa abordagem facilita a interpretação dos resultados e aproxima o usuário de uma experiência semelhante aos centros de monitoramento ambiental e espacial, onde grandes volumes de dados são transformados em informações visuais e acionáveis para auxiliar na tomada de decisão.
+
+## 📜 Histórico de Monitoramento
+
+<p align="center">
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/11.jpeg?raw=true" width="150"/>
+  <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/15.jpeg?raw=true" width="150"/>
+</p>
+
+A tela **Histórico** permite que o usuário acompanhe todas as análises realizadas anteriormente, criando uma linha do tempo das regiões e espécies monitoradas ao longo do tempo.
+
+Por meio dessa funcionalidade, é possível consultar análises passadas, revisar indicadores ambientais, visualizar os status identificados em cada monitoramento e acompanhar a evolução das condições observadas. O usuário também pode utilizar filtros para localizar análises específicas e remover registros que não deseja mais manter armazenados.
+
+Além de servir como um histórico de consultas, essa área funciona como uma base de acompanhamento ambiental, permitindo comparar diferentes períodos e identificar possíveis mudanças no comportamento dos ecossistemas monitorados.
+
+Como evolução futura, o Odyssey Mirror contará com um sistema de **logs automáticos de monitoramento**, registrando novas análises periodicamente sem necessidade de intervenção do usuário. A plataforma também poderá atualizar os dados de forma contínua, gerando históricos cada vez mais completos e permitindo o acompanhamento em tempo real das regiões monitoradas.
 
 <p align="center">
   <img src="https://github.com/AnaTorresLoureiro/legendary-doodle/blob/main/1.jpeg" width="150"/>
